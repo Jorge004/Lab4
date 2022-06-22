@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Profesores</title>
+    <link rel="stylesheet" href="Lab4.css">
+</head>
+<body>
+    <form action="Lab4.jsp" method="post">
+        <header><h2>REGISTRO DE PROFESORES</h2></header>
+        <div>
+            <p>
+                ¡Bienvenido al registro de Profesores!
+                <br><br>
+                Llene las siguiente información con sus datos personales.
+            </p>
+        </div>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="user">
+            <br>
+            <br>
+            <label for="cedula">Cedula</label>
+            <input type="number" id="cedula" name="ced">
+            <br>
+            <br>
+            <label for="Materia">Materia que dicta</label>
+            <input type="text" id="materia" name="mat">
+            <br>
+            <br>
+            <form>
+                <p>Centro Regional donde labora</p>
+                <p><input type="radio" name="centro" value="Panama"/>Panamá</p>
+                <p><input type="radio" name="centro" value="Cocle"/>Coclé</p>
+                <p><input type="radio" name="centro" value="Colon"/>Colón</p>
+                <p><input type="radio" name="centro" value="Veraguas"/>Veraguas</p>
+                <p><input type="radio" name="centro" value="Lossantos"/>Los Santos</p>
+                <p><input type="radio" name="centro" value="Bocasdeltoro"/>Bocas del Toro</p>
+                <p><input type="radio" name="centro" value="Chiriqui"/>Chiriquí</p><br>
+                <p>Tiene experiencia</p>
+                <p><input type="radio" name="si" value="Si"/>Sí</p>
+                <p><input type="radio" name="si" value="No"/>No</p>
+            </form>
+            <br>
+            <br>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
